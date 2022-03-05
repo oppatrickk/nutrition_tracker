@@ -1,6 +1,6 @@
 # nutrition_app
 
-A Flutter App made for GDSC-L HackFest 2022
+A Flutter App made for GDSC-L HackFest 2022 <br>
 Theme: Developing Tech Towards Sustainable Development For the Betterment of the Filipinos
 
 ## Team
@@ -15,7 +15,7 @@ Pitcher and Editor
 - Francis Maurice Miranda
 
 ## Sustainable Development Goals
-SDG 3 - Good Health and Well-being
+SDG 3 - Good Health and Well-being <br>
 SDG 12 - Responsible Consumption and Production
 
 ## Problem
