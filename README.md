@@ -1,19 +1,29 @@
 # nutrition_app
 
-App made for Hackfest 2022
+A Flutter App made for GDSC-L HackFest 2022
+Theme: Developing Tech Towards Sustainable Development For the Betterment of the Filipinos
 
-Team:
+## Team
+Frontend
 - Lean Jedfrey Deduque
-- Francis Maurice Miranda
-- John Patrick Prieto
 - Lance Stephen Bronzal
 
+Backend
+- John Patrick Prieto
+
+Pitcher and Editor
+- Francis Maurice Miranda
+
 ## Sustainable Development Goals
-SDG 3
-SDG
+SDG 3 - Good Health and Well-being
+SDG 12 - Responsible Consumption and Production
 
 ## Problem
-
+1. Obesity and Malnutrition
+2. Heart-disease
 
 
 ## Solution
+1. Calorie Counting
+2. Customized Diet Plan
+3. Calorie to Exercise Equivalent
