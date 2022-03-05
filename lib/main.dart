@@ -3,9 +3,6 @@ import 'package:flutter/material.dart';
 // Database
 import 'package:nutrition_app/database/nutritionix/api_provider.dart';
 
-// Page
-import 'package:nutrition_app/pages/home.dart';
-
 // Widgets
 import 'package:nutrition_app/widgets/scroll_behavior.dart';
 import 'package:nutrition_app/widgets/mainAppBar.dart';

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 // Pages
 import 'package:nutrition_app/pages/calories.dart';
+import 'package:nutrition_app/widgets/constant.dart';
 
 class CaloriesPage extends StatefulWidget {
   const CaloriesPage({Key? key}) : super(key: key);
@@ -15,11 +16,15 @@ class _CaloriesPageState extends State<CaloriesPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: ListView(
-          children: const <Widget>[
-            const Text("Calories"),
-          ],
+      body: Container(
+        height: 125,
+        width: double.infinity,
+        color: kPrimaryColor,
+        child: Text(
+          "1000 kCal",
+          style: TextStyle(
+            color: Colors.white,
+          ),
         ),
       ),
     );

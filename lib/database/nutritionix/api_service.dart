@@ -1,9 +1,8 @@
-/*
 import 'dart:convert' as convert;
 import 'package:http/http.dart' as http;
 
 // Database
-import 'package:nutrition_tracker/database/nutritionix/nutritionix_model.dart';
+import 'package:nutrition_app/database/nutritionix/api_model.dart';
 
 class NutritionixApiService {
   List<NutritionixJson> nutritionList = [];
@@ -26,5 +25,3 @@ class NutritionixApiService {
     }
   }
 }
-
- */

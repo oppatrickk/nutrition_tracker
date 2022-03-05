@@ -1,4 +1,3 @@
-/*
 class NutritionixJson {
   String food;
   int calories;
@@ -23,4 +22,3 @@ class NutritionixJson {
     return data;
   }
 }
-*/

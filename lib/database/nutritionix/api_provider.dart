@@ -1,9 +1,8 @@
-/*
 import 'package:flutter/material.dart';
 
 // Database
-import 'package:nutrition_tracker/database/nutritionix/nutritionix_model.dart';
-import 'package:nutrition_tracker/database/nutritionix/nutritionix_service.dart';
+import 'package:nutrition_app/database/nutritionix/api_model.dart';
+import 'package:nutrition_app/database/nutritionix/api_service.dart';
 
 class FetchNutritionixDataProvider with ChangeNotifier{
   List<NutritionixJson> nutrition = [];
@@ -46,5 +45,3 @@ class FetchNutritionixDataProvider with ChangeNotifier{
   }
 
 }
-
- */

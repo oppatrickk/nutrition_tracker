@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:nutrition_app/widgets/constant.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 // Pages
 import 'package:nutrition_app/pages/calories.dart';
@@ -15,19 +17,35 @@ class _DietPageState extends State<DietPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: ListView(
-          children: <Widget>[
-            ClipPath(
-              clipper: CurveClipper(),
-              child: Container(
-                color: Colors.green,
-                height: 200.0,
-                child: Text("Catalog"),
+      body: Column(
+        children: [
+          ClipPath(
+            clipper: CurveClipper(),
+            child: Container(
+              color: kPrimaryColor,
+              height: 150.0,
+              alignment: Alignment.center,
+              child: Text(
+                "Catalog",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 48
+                ),
               ),
             ),
-          ],
-        ),
+          ),
+          Container( // Test
+            alignment: Alignment.center,
+            child: Text(
+              "Test",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  fontSize: 12
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }

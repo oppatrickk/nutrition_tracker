@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:nutrition_app/widgets/constant.dart';
 
 // Pages
 import 'package:nutrition_app/pages/calories.dart';
 import 'package:nutrition_app/pages/exercise.dart';
 import 'package:nutrition_app/pages/diet.dart';
-import 'package:nutrition_app/pages/home.dart';
 
 // Widgets
+import 'package:nutrition_app/widgets/mainDrawer.dart';
 
 
 class MainAppBar extends StatefulWidget {
@@ -56,9 +57,9 @@ class _MainAppBarState extends State<MainAppBar> {
         ),
         elevation: 0,
         leadingWidth: 50,
-        toolbarHeight: 0,
+        toolbarHeight: 50,
         actions: <Widget>[],
-        backgroundColor: Colors.green,
+        backgroundColor: kPrimaryColor,
       ),
       body: PageView(
         controller: _pageController,
@@ -69,11 +70,12 @@ class _MainAppBarState extends State<MainAppBar> {
           ExercisePage(),
         ],
       ),
+      endDrawer: BaseDrawer(),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         backgroundColor: Colors.white,
-        selectedItemColor: Colors.green,
-        unselectedItemColor: Colors.green.withOpacity(.3),
+        selectedItemColor: kPrimaryColor,
+        unselectedItemColor: kPrimaryColor.withOpacity(.3),
         selectedFontSize: 12,
         unselectedFontSize: 12,
         currentIndex: _page,
