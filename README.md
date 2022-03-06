@@ -1,10 +1,9 @@
 # LiteBite
-A Flutter App made for GDSC-L HackFest 2022 <br>
+A Flutter App made for GDSC-L HackFest 2022 <br><br>
 Theme: Developing Tech Towards Sustainable Development For the Betterment of the Filipinos <br><br>
 
-Built for Android
-Emulator used: Pixel 5 <br>
-
+Built for Android <br>
+Emulator used: Pixel 5
 <br> <br>
 Landing Page: https://accessy-nutrition-tracker.webflow.io/
 
