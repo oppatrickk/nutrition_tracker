@@ -10,9 +10,10 @@ class NutritionixApiService {
   Future<List<NutritionixJson>> getApiDataFromNutritionixJson() async {
     try {
       var res = await http.get(
-          Uri.parse("https://trackapi.nutritionix.com/v2"),
-          headers: {"1e8573c3": "5f6cb3db2c7243ae2eb0967cc0e6bff9"});
-      var jsonResponse = convert.jsonDecode(res.body);
+          Uri.parse("https://api.calorieninjas.com/v1/nutrition?query=apple"),
+          headers: {"X-Api-Key": "q+rn0YTIXmjXd7xbIiwvdw==ERTtuqghFpNT3WAw"}
+      );
+      var jsonResponse = convert.jsonDecode(res.body)['items'];
       print('Nutritionix API Successfully Loaded');
       var itemCount = jsonResponse;
       itemCount.forEach((e) {
@@ -21,7 +22,7 @@ class NutritionixApiService {
       return nutritionList;
     } catch (e) {
       print('Error! API Failed to load $e');
-
+      throw e;
     }
   }
 }

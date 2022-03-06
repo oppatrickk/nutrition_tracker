@@ -24,22 +24,6 @@ class _MainAppBarState extends State<MainAppBar> {
   Duration pageChanging = Duration(milliseconds: 300);
   Curve animationCurve = Curves.linear;
 
-  final List<bool> visibilityList = [
-    false, true, true
-  ];
-
-  final List<String> titleList = [
-    "Calories",
-    "Diet",
-    "Exercise"
-  ];
-
-  final List<Icon> iconList = [
-    Icon(FontAwesomeIcons.fire, color: Colors.white),
-    Icon(FontAwesomeIcons.virus, color: Colors.white),
-    Icon(FontAwesomeIcons.infoCircle, color: Colors.white),
-  ];
-
   @override
   void initState() {
     super.initState();
@@ -79,7 +63,7 @@ class _MainAppBarState extends State<MainAppBar> {
         selectedFontSize: 12,
         unselectedFontSize: 12,
         currentIndex: _page,
-        elevation: 0,
+        elevation: 2,
         onTap: navigationTapped,
         items: [
           BottomNavigationBarItem(
@@ -88,7 +72,7 @@ class _MainAppBarState extends State<MainAppBar> {
           ),
           BottomNavigationBarItem(
             label: 'Diet',
-            icon: Icon(FontAwesomeIcons.apple),
+            icon: Icon(FontAwesomeIcons.appleAlt),
           ),
           BottomNavigationBarItem(
             label: 'Exercise',

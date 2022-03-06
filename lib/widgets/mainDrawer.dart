@@ -4,6 +4,8 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 // Pages
 import 'package:nutrition_app/pages/calories.dart';
+import 'package:nutrition_app/pages/drawer/profile.dart';
+import 'package:nutrition_app/pages/drawer/about.dart';
 
 class BaseDrawer extends StatelessWidget {
 
@@ -37,7 +39,7 @@ class BaseDrawer extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      "Rick Astley",
+                      "User",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 22.0,
@@ -53,16 +55,28 @@ class BaseDrawer extends StatelessWidget {
               leading: FaIcon(FontAwesomeIcons.solidUser, size: 25.0),
               onTap: () {
                 Navigator.pop(context);
-                Navigator.push(context, MaterialPageRoute(builder: (context) => CaloriesPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => ProfilePage()));
               },
+            ),
+            ListTile(
+              title: Text("Recipes"),
+              leading: FaIcon(FontAwesomeIcons.solidBookmark, size: 25.0),
             ),
             ListTile(
               title: Text("Settings"),
               leading: FaIcon(FontAwesomeIcons.cog, size: 25.0),
+            ),
+            ListTile(
+              title: Text("About"),
+              leading: FaIcon(FontAwesomeIcons.solidQuestionCircle, size: 25.0),
               onTap: () {
                 Navigator.pop(context);
-                Navigator.push(context, MaterialPageRoute(builder: (context) => CaloriesPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => AboutPage()));
               },
+            ),
+            ListTile(
+              title: Text("Log Out"),
+              leading: FaIcon(FontAwesomeIcons.solidArrowAltCircleLeft, size: 25.0),
             ),
           ],
         ),
