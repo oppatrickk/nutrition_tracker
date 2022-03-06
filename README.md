@@ -4,13 +4,10 @@ LiteBite <br>
 A Flutter App made for GDSC-L HackFest 2022 <br>
 Theme: Developing Tech Towards Sustainable Development For the Betterment of the Filipinos <br><br>
 
-Emulator used: Pixel 5
-
-## Team
-- Francis Maurice Miranda
-- John Patrick Prieto
-- Lance Stephen Bronzal
-- Lean Jedfrey Deduque
+Emulator used: Pixel 5 <br>
+Built for Android
+<br> <br>
+Landing Page: https://accessy-nutrition-tracker.webflow.io/
 
 ## Installation (2 Options)
 1. Install APK
@@ -26,15 +23,28 @@ flutter build ipa --no-sound-null-safety
 - Web device <br>
 flutter build web--no-sound-null-safety
 
+## Team (ACCeSSy)
+- Francis Maurice Miranda
+- John Patrick Prieto
+- Lance Stephen Bronzal
+- Lean Jedfrey Deduque
+
 ## Sustainable Development Goals
 SDG 3 - Good Health and Well-being <br>
 SDG 12 - Responsible Consumption and Production
 
 ## Problem
-1. Obesity and Malnutrition
-2. Heart-disease
+1. Obesity
+2. Underweight
+3. Cardiovascular Diseases
 
 ## Solution
 1. Calorie Counting
 2. Customized Diet Plan
 3. Calorie to Exercise Equivalent
+
+## Business Model
+The app will adopt premium features for income generation wherein the users can unlock certain functions such as unlimited diet plans, or nutrition breakdowns and insights if they avail subscriptions (e.g. 1 month premium plan for 149.00 PHP).
+
+##Competition/Market Validation
+LiteBite may look like a typical diet app, but what sets it apart is its feature to customize the diet plans that maintain the same nutritional value which expands its target audience to people who are interested in dieting but are sensitive to certain foods.
