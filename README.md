@@ -9,7 +9,7 @@ Landing Page: https://accessy-nutrition-tracker.webflow.io/
 
 ## Installation (2 Options)
 1. Install APK
-- Use the APK provided and install on your Android Phone
+- Use the APK release provided and install on your Android Phone
 
 2. Build from Flutter
 - Android device <br>
