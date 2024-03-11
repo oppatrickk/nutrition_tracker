@@ -7,6 +7,9 @@ Emulator used: Pixel 5
 <br> <br>
 Landing Page: https://accessy-nutrition-tracker.webflow.io/
 
+# Awards
+🏆 Overall Top 10 - LiteBite
+
 ## Installation (2 Options)
 1. Install APK
 - Use the APK provided (LiteBite.apk) and install on your Android Phone
